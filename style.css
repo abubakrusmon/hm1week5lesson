@@ -5,3 +5,132 @@ font-family: sans-serif;
 list-style: none;
 box-sizing: border-box;
 }
+.header{
+background-image: url(./images/Mask\ Group.png);
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+max-width: 100%;
+max-height: 800px           ;
+height: 800px;
+}
+.btnheader{
+width: 200px;
+height: 50px;
+border: none;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+background-color: #9B51E0;
+color: white;
+font-weight: 600;
+}
+.btn2header{
+width: 150px;
+height: 40px;
+border: none;
+background-color: #404040;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+color: white;
+font-weight: 700;
+}
+.divheader img {
+width: 40px;
+height: 40px;
+}
+.divheader h1{
+font-size: 30px;
+color: white;
+}
+.divheader{
+display: flex;
+gap: 50px;
+margin-top: 60px;
+}
+.obshiydivheaeder{
+display: flex;
+justify-content: space-evenly;
+}
+.btndivheader{
+display: flex;
+gap: 20px;
+}
+.divimglogo{
+margin-top: 30px;
+}
+.imgcaliann{
+width: 450px;
+height: 600px;
+}
+.obshiydiv2header{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.divleftheader h1{
+font-size: 40px;
+color: white;
+width: 400px;
+}
+.divleftheader p{
+font-size: 20px;
+width: 300px;
+color: white;
+}
+.divleftheader button{
+width: 150px;
+height: 50px;
+border: none;
+background-color: #F2994A;
+color: white;
+border: 3px solid white;
+border-radius: 20px;
+font-size: 15px;
+font-weight: 700;
+}
+.divleftheader{
+display: flex;
+flex-direction: column;
+row-gap: 35px;
+}
+@media (max-width : 510px) {
+    .divimglogo img{
+    width: 60px;
+    }
+    .btnheader{
+    width: 150px;
+    font-size: 10px;
+    }
+    .btn2header{
+    width: 110px;
+    }
+    .obshiydivheaeder{
+    flex-wrap: wrap;
+    position: relative;
+    }
+    .divheader img{
+    width: 30px;
+    height: 30px;
+    }
+    .divheader h1{
+    font-size: 20px;
+    }
+    .divheader{
+    position: absolute;
+    gap: 20px;
+    left: 100px;
+    }
+    .obshiydiv2header{
+    flex-direction: column;
+    }
+    .imgcaliann{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 0px;
+    bottom: 80px;
+    }
+    .header{
+    height: 650px;
+    }
+}

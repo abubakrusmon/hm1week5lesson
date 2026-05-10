@@ -109,6 +109,62 @@ display: flex;
 justify-content: space-evenly;
 margin-top: 50px;
 }
+.zgss2 span{
+color: #9B51E0;
+font-size: 40px;
+}
+.zgss2{
+font-size: 40px;
+text-align: center;
+margin-top: 100px;
+}
+.cardss2{
+width: 230px;
+height: 330px;
+border-radius: 15px;
+box-shadow: 0px 0px 10px rgba(190, 188, 188, 0.74);
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 20px;
+justify-content: center;
+row-gap: 30px;
+}
+.cardss2 img{
+width: 130px;
+border: 6px solid #F2994A;
+border-radius: 50%;
+}
+.cardss2 h3{
+width: 200px;
+}
+.obshiydivss2{
+display: flex;
+gap: 30px;
+justify-content: center;
+margin-top: 50px;
+}
+.card2ss2{
+width: 230px;
+height: 330px;
+border-radius: 15px;
+box-shadow: 0px 0px 10px rgba(190, 188, 188, 0.74);
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 20px;
+justify-content: center;
+row-gap: 30px;
+}
+.card2ss2 img{
+width: 130px;
+border: 6px solid #9B51E0;
+border-radius: 50%;
+}
+.card2ss2 h3{
+width: 200px;
+
+}
 @media (max-width : 510px) {
     .divimglogo img{
     width: 60px;
@@ -157,5 +213,8 @@ margin-top: 50px;
     .section1{
     flex-wrap: wrap;
     row-gap: 30px;
+    }
+    .obshiydivss2{
+    flex-wrap: wrap;
     }
 }

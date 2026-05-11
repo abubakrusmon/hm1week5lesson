@@ -190,6 +190,7 @@ display: flex;
 flex-wrap: wrap;
 width: 40%;
 gap: 50px;
+align-items: center;
 }
 .cardss3 img{
 width: 100px;

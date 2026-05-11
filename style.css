@@ -222,10 +222,6 @@ background-size: cover;
 margin: auto;
 margin-top: 100px;
 }
-.section5{
-height: 300px;
-margin-top: 1000px;
-}
 .section4 h1{
 color: white;
 margin-top: 200px;
@@ -237,6 +233,39 @@ color: white;
 margin-left: 100px;
 padding-top: 0px;
 width: 450px;
+}
+.divzg h1{
+font-size: 40px;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+.divzg h1 span{
+color: #9B51E0;
+}
+.cardss5 h2{
+width: 300px;
+text-align: center;
+}
+.cardss5 p{
+width: 300px;
+text-align: center;
+} 
+.cardss5 img{
+width: 60px;
+}
+.cardss5{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 400px;
+row-gap: 30px;
+}
+.obshiyss5{
+display: flex;
+gap: 50px;
+justify-content: center;
+margin-top: 50px;
 }
 @media (max-width : 510px) {
     .divimglogo img{
@@ -325,6 +354,12 @@ width: 450px;
     margin-left: 20px;
     }
     .section4 p{
-    margin-left: 20px;    
+    margin-left: 20px;  
+    width: 100%;  
+    }
+    .obshiyss5{
+    flex-direction: column;
+    row-gap: 70px;
+    margin-top: 100px;
     }
 }

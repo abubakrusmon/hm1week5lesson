@@ -163,7 +163,55 @@ border-radius: 50%;
 }
 .card2ss2 h3{
 width: 200px;
-
+}
+.divleftss3 h1{
+font-size: 40px;
+width: 200px;
+}
+.divleftss3 h1 span{
+color: #9B51E0;
+}
+.section3{
+margin-top: 150px;
+display: flex;
+justify-content: space-evenly;
+}
+.cardss3 button{
+width: 150px;
+height: 35px;
+border: none;
+background-color: rgba(186, 183, 183, 0.603);  
+border-radius: 10px;
+font-size: 17px;
+font-weight: 700;  
+}
+.divrightss3{
+display: flex;
+flex-wrap: wrap;
+width: 40%;
+gap: 50px;
+}
+.cardss3 img{
+width: 100px;
+}
+.cardss3{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.btnss3{
+width: 600px;
+height: 50px;
+border: 4px solid white;
+background-color: #F2994A;
+color: white;
+border-radius: 10px;
+}
+.divbtnss3{
+display: flex;
+justify-content: end;
+margin-right: 260px;
+margin-top: 20px;
 }
 @media (max-width : 510px) {
     .divimglogo img{
@@ -216,5 +264,31 @@ width: 200px;
     }
     .obshiydivss2{
     flex-wrap: wrap;
+    }
+    .section3{
+    flex-direction: column;
+    }
+    .divleftss3 h1{
+    width: 100%;
+    }
+    .divleftss3{
+    display: flex;
+    margin-left: 50px;
+    }
+    .divrightss3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    }
+    .btnss3{
+    width: 80%;
+    height: 60px;
+    }
+    .divbtnss3{
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
     }
 }

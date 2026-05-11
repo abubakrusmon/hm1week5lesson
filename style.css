@@ -267,6 +267,252 @@ gap: 50px;
 justify-content: center;
 margin-top: 50px;
 }
+.section-7{
+    background-image: url(images/Mask\ Group\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 600px;
+    width: 100%;
+    color: white;
+    margin-top: 100px;
+}
+.glavgap-sect7{
+    text-align: center;
+    padding-top: 100px;
+}
+.flex-krug-sect7{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 63px;
+    justify-content: center;
+    margin-top: 60px;
+}
+.krug-1{
+    width: 74px;
+    height: 74px;
+    background-color: white;
+    box-shadow: 0px 4px 30px #00000014;
+    border-radius: 50%;
+}
+.krug-1 div img{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.p-sect7{
+    width: 188px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.safed-1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.all-coment-sect7{
+    display: flex;
+    justify-content: space-evenly;
+}
+.coment-sect7{
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    box-shadow: 0px 4px 30px #0000001A;
+    border-radius: 15px;
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+.name-sect7{
+    display: flex;
+    flex-direction: column;
+    color: #9B51E0;
+    font-weight: 800;
+}
+.coment-sect7mm{
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    box-shadow: 0px 4px 30px #0000001A;
+    border-radius: 15px;
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.section-8{
+    margin-top: 250px;
+}
+.gap-sect8{
+    text-align: center;
+}
+.all-card-sect8{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+.card1-sect8{
+    width: 386px;
+    height: 545px;
+    border: 1px solid #EAEAEA;
+    border-radius: 15px;
+}
+.column-sect8{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.klj{
+    width: 326px;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+.narx-sect8{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    align-items: center;
+}
+.narxxx{
+    font-size: 36px;
+    font-weight: 700;
+    color: #9B51E0;
+}
+.sale-sect8{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9B51E0;
+}
+.btn-sect8 button{
+    width: 320px;
+    height: 50px;
+    background-color: #F2994A;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border: 5px solid #EAEAEA;
+    border-radius: 30px;
+}
+.btn-sect8{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+.section-9{
+    background-image: url(/images/Rectangle\ 40.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 901px;
+    width: 100%;
+    margin-top: 100px;   
+    padding-top: 80px; 
+}
+.registor{
+    width: 594px;
+    height: 845px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px #0000001A;
+    border-radius: 15px;
+    margin: auto; 
+}
+.glava-gap-sect9{
+    text-align: center;
+    color: #9B51E0;
+    padding-top: 30px;
+}
+.input-sect9{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.input-sect9 input{
+    width: 386px;
+    height: 45px;
+    border: 1px solid #DEDEDE;
+    margin: auto;
+    border-radius: 5px;
+}
+.input-sect9 hr{
+    width: 386px;
+    margin: auto;
+    margin-top: 20px;
+}
+.moy-bor{
+    width: 386px;
+    height: 96px;
+    background-color: white;
+    box-shadow: 0px 4px 30px #0000001A;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.column-sect9{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 30px;
+    align-items: center;
+}
+.column-sect9 input{
+    width: 386px;
+    height: 45px;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}
+.column-sect9 textarea{
+    width: 386px;
+    height: 90px;
+}
+.btn-sect9 button{
+     width: 380px;
+    height: 50px;
+    background-color: #F2994A;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border: 5px solid #EAEAEA;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.section-10{
+   background-image: url(/images/Rectangle\ 40.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 901px;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 80px;
+    display: flex;
+    align-items: flex-end;  
+}
+.registor2{
+     width: 594px;
+    height: 530px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px #0000001A;
+    border-radius: 15px;
+    margin: auto; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
 @media (max-width : 510px) {
     .divimglogo img{
     width: 60px;
@@ -361,5 +607,65 @@ margin-top: 50px;
     flex-direction: column;
     row-gap: 70px;
     margin-top: 100px;
+    }
+        .flex-krug-sect7{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .safed-1{
+        width: 45%;
+    }
+
+    .coment-sect7mm{
+        display: none;
+    }
+
+    .p-sect7 p{
+        width: 100px;
+    }
+    .section-7{
+        height: 750px;
+    }
+    .coment-sect7{
+        margin-top: -1px;
+    }
+    .img-calian-sect8 img{
+        width: 220px;
+    }
+    .all-card-sect8{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .card1-sect8{
+        width: 220px;
+        height: auto;
+    }
+    .klj{
+        width: 180px;
+        padding-left: 15px;
+    }
+    .btn-sect8 button{
+        width: 180px;
+    }
+    .registor{
+        width: 500px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-sect9{
+        position: relative;
+    }
+    .btn-sect9 button{
+        position: absolute;
+        right: 50px;
+    }
+    .registor2{
+        width: 500px;
     }
 }
